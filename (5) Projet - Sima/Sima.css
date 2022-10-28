@@ -1,0 +1,581 @@
+*{
+    
+    margin: 0;
+    font-family: 'Ruda', sans-serif;
+
+}
+
+img[src="logoSima.png"]{
+
+    transform: none;
+    box-shadow: none;
+}
+
+nav{
+    
+    background-color: rgb(255, 255, 255);  
+    height: 100px;
+    padding: 1%;
+    box-shadow: black 2px 0px 8px 0px;
+    top: 0;
+    position: sticky;
+   
+}
+
+h1{
+
+    background: linear-gradient(120deg,#21de72 0%,#1e65ff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 35px;
+
+}
+
+h1:hover{
+    
+    color: rgb(105, 28, 194);
+    transition: 0.5s;
+    
+}
+
+a[href="Sima.html"]{
+    
+    text-decoration: none;
+    color: black;
+}
+
+a[href="Sima.html"]:hover{
+    
+    color: rgb(23, 230, 188);
+    transition: 0.5s;
+    
+    
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    
+    
+}
+
+.rubriques{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.rubriques2{
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+h2{
+
+    font-size: 17px;
+
+}
+
+input[type="search"]{
+
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+
+    
+
+}
+
+img[src="scearch.png"]{
+
+    border-radius: none;
+    box-shadow: none;
+    cursor: pointer;
+
+}
+
+img:hover[src="scearch.png"]{
+
+    transition: none;
+    transform: scale(1.2);
+
+}
+
+
+/* Fin de la barre de navigation */
+/* Début de la Partie Promo */
+
+.promo{
+    
+    background-color: whitesmoke;
+    height: 600px;
+    
+    
+}
+
+.textePromo{
+
+    text-align: center;
+
+}
+
+h3{
+
+    font-size: 50px;
+    color: red;
+
+}
+
+p{
+
+    font-weight: bold;
+
+}
+
+
+.photoSape{
+
+ 
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+  
+}
+
+
+img[src="cargo.webp"]{
+
+    width: 18%;
+    min-width: 200px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: black 0px 2px 6px 0px;
+    
+
+}
+
+
+img[src="paireAdidas.webp"]{
+
+    width: 18%;
+    min-width: 200px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: black 0px 2px 6px 0px;
+
+}
+
+
+img[src="sergioTach.jpg"]{
+
+    width: 18%;
+    min-width: 200px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: black 0px 2px 6px 0px;
+
+}
+
+
+
+.section1{
+
+    min-width: 220px;
+    text-align: center;
+   
+
+}
+.section2{
+
+    min-width: 220px;
+    text-align: center;
+
+}
+.section3{
+
+    min-width: 220px;
+    text-align: center;
+
+}
+
+h4{
+
+    color: red;
+    font-weight: bold;
+
+}
+
+/* Section Partenaire */
+
+.sectionPartenaires{
+
+    background-color: #ffffff;
+    height: 230px;
+
+}
+
+.sectionTxt{
+
+    text-align: center;
+}
+
+p2{
+
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.sectionLogo{
+
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.first{
+    
+    text-align: center;
+
+}
+
+/* Section Mot */
+
+.sectionMot{
+
+    background-image: linear-gradient( 125deg, #0e9a20 20%, #10b158 90%);
+    height: 160px;
+    text-align: center;
+
+}
+
+p3{
+
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(227, 226, 226);
+    
+
+}
+
+/* PARTENARIAT */
+
+.partenariat{
+
+    height: 400px;
+    background-color: whitesmoke;
+
+}
+
+.photoPartenariat{
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+}
+
+
+img[src="pogbaPartenariat.jpg"]{
+
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: black 0px 2px 6px 0px;
+  
+    
+    
+}
+
+
+
+img[src="ney.jpg"]{
+
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: black 0px 2px 6px 0px;
+
+}
+
+
+/* HISTOIRE DE SIMA */
+
+.history{
+
+
+    height: 350px;
+    text-align: center;
+
+}
+
+p4{
+
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.txt2{
+
+    width: 60%;
+    margin: auto;
+
+}
+
+/* EMPLACEMENT DE SIMA */
+
+.emplacement{
+
+    height: 600px;
+    background-color: whitesmoke;
+
+}
+
+.pics{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+iframe{
+
+    width: 40%;
+    min-width: 400px;
+    height: 250px;
+    border-radius: 6px;
+    box-shadow: black 0px 2px 6px 0px;
+
+
+}
+
+/* FOOTER : THE LAST */
+
+footer{
+
+    background-color: black;
+    color: white;  
+    height: 200px;
+    font-weight: bold;
+
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    transition: 0.6s;
+    color: rgb(23, 230, 188);
+
+}
+
+.foot1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    min-width: 300px;
+    margin: auto;
+}
+
+.foot2{
+
+    text-align: center;
+
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media all and (max-width:850px) {
+
+    .navbar{
+
+        flex-direction: column;
+
+    }
+
+    .rubriques{
+
+        flex-direction: column;
+
+    }
+    
+    nav{
+        
+        height: 180px;
+        
+    }
+    
+    h1{
+        
+        text-align: center;
+        height: 55px;
+
+        background: linear-gradient(120deg,#08f17c 0%,#1277f4 100%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+
+    }
+
+    .rubriques1{
+        
+        height: 35px;
+
+    }
+
+    /* Partie BPZ Édition Promo */
+
+    .promo{
+
+        height: 1100px;
+
+    }
+
+    .photoSape{
+        
+        flex-direction: column;
+    
+    }
+    /* Partier Partenaire */
+
+    .sectionPartenaires{
+
+        height: 258px;
+    }
+    
+    .sectionLogo{
+        
+        display: inline;
+        
+    }
+        
+    /* Section MOT */
+
+    .sectionMot{
+
+        height: 300px;
+
+    }
+
+    .history{
+
+        height: 500px;
+    }
+
+    p3{
+
+        font-size: 24px;
+
+    }
+
+    .txt2{
+
+        width: 95%;
+
+    }
+
+    /* emplacement */
+
+    iframe{
+
+        min-width: 350px;
+
+    }
+
+    
+    
+}
+
+
+@media all and (max-width:1050px) {
+    
+    /* PARTENARIAT */
+    
+    .photoPartenariat{
+    
+        flex-direction: column;
+    
+    }
+
+    .partenariat{
+
+        height: 550px;
+        background-color: whitesmoke;
+    
+    }
+
+    /* MOT */
+
+    .sectionMot{
+
+        height: 210px;
+
+    }
+
+
+
+    /* emplacement */
+
+    .emplacement{
+
+        height: 850px;
+
+    }
+
+
+    .pics{
+
+        flex-direction: column;
+
+    }
+
+    iframe{
+
+        width: 85%;
+
+    }
+
+    /* FOOTER LAST */
+
+    footer{
+
+        height: 350px;
+
+    }
+
+    .foot1{
+
+        flex-direction: column;
+
+    }
+
+}
+
